@@ -269,7 +269,7 @@ export default function Landing() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap" style={{ justifyContent: "center" }}>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"data-aos="fade-in">
                 <div className="px-6">
                   <img
@@ -292,18 +292,18 @@ export default function Landing() {
                       >
                         <i className="fab fa-instagram"></i>
                       </button></a>     
-                      <button
+                      {/* <button
                         className="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
                         <i className="fab fa-facebook-f"></i>
-                      </button>
-                      <button
-                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      </button> */}
+                      <a href='https://www.linkedin.com/in/ashik-ahamed-597016134/'><button
+                        className="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
-                        <i className="fab fa-dribbble"></i>
-                      </button>
+                        <i className="fab fa-linkedin"></i>
+                      </button></a>
                     </div>
                   </div>
                 </div>
@@ -383,7 +383,7 @@ export default function Landing() {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"data-aos="fade-in" data-aos-delay="800">
+              {/* <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"data-aos="fade-in" data-aos-delay="800">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -421,7 +421,7 @@ export default function Landing() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
